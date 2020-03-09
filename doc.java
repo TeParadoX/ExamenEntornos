@@ -7,6 +7,9 @@
  */
 public interface doc
 {
-    
-   public abstract int printend();
+   
+   // Devuelve el contenido de la fila x del fichero de texto con ruta absoluta file.
+   public abstract String obtenerLinea(int x, String file);
+   
+   
 }
